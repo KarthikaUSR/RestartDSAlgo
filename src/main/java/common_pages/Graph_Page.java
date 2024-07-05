@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class Graph_Page {
 	
 	private WebDriver driver;
-	//locators
+	//Locate
 		By Getstart_graph=By.xpath("//a[@href='graph']");
 
 		By Graphlink= By.linkText("Graph");

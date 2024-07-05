@@ -1,5 +1,5 @@
 @Graph_page
-Feature: Array page and links
+Feature: Graphs page and links
   Background:
     Given Enter DS Algo Home portal
     And   Do Login 
@@ -8,7 +8,7 @@ Feature: Array page and links
     When Click on Getstarted button on 'Graph' widget      
     Then "Graph" page should be open
     
-     @Arrays_page_links
+     @Graphs_page_links
   Scenario Outline: 'Graph' links in Topics Covered section for Arrays page.
 
          

@@ -1,7 +1,7 @@
 package step_definitions;
 
 import common_factory.driver_factory;
-import common_pages.Array_Page;
+
 import common_pages.Graph_Page;
 
 import io.cucumber.java.en.When;
