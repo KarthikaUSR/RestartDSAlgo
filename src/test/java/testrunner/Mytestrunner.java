@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/resources/feature_files/Graphs.feature"},
+		features = {"src/test/resources/feature_files/Login.feature"},
 		glue = {"step_definitions","apphooks"},
 		//html report and json report
 		plugin = {"pretty","html:target/cucumber-reports","json:target/cucumber.json"},
