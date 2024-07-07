@@ -8,7 +8,7 @@ Feature: Array page and links
     When Click on Getstarted button on 'Array' widget      
     Then "Array" page should be open
    
-   @Arrays_page_links
+  @Arrays_page_links
   Scenario Outline: 'Arrays' links in Topics Covered section for Arrays page.
 
          
@@ -31,9 +31,6 @@ Feature: Array page and links
       | Arrays Using List         |print "karthi"| karthi|
       |Basic Operations in Lists  |print "hello" | hello |
       |Applications of Array      |print "karthi"| karthi|
-   
- 
-
   @Array_Page_Practice_Questions_nonpythoncode
   Scenario Outline: Practice Questions_Nonpythoncode
     When  Click on 'Arrays in Python' link
@@ -59,8 +56,8 @@ Feature: Array page and links
      |Find Numbers with Even Number of Digits|
      |Squares of  a Sorted Array|
      
-   @Array_Page_Practice_Questions_Validandinvalid_Pythoncode
-    Scenario Outline: Practice Questions_Nonpythoncode
+  @Array_Page_Practice_Questions_Validandinvalid_Pythoncode
+  Scenario Outline: Practice Questions_pythoncode
     When  Click on 'Arrays in Python' link
     Then 'Arrays in Python' page should be open
     When Click on 'Practice Question' link in Array      
